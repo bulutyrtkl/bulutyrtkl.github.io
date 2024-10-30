@@ -8,7 +8,7 @@
 }
 
 body{
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     background-size: cover;
 }
 
@@ -35,7 +35,7 @@ height: 100%;
 }
 
 header nav .logo a{
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     font-weight: 700;
     font-size: 20px;
@@ -48,12 +48,12 @@ nav ul{
 }
 
 nav ul li a{
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
 }
 
 nav ul li a:hover{
-    color: rgb(0, 0, 255);
+    color: red;
     text-decoration: none;
     transition: color .25s ease;
 }
@@ -65,9 +65,9 @@ nav .menu{
 }
 
 nav .menu .menu-button{
-    color: rgb(255, 0, 0);
+    color: white;
     text-decoration: none;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.08);
     padding: 12px 24px;
     border-radius: 56px;
     transition: all .25s ease;
@@ -76,7 +76,7 @@ nav .menu .menu-button{
 
 nav .menu .menu-button:hover{
    
-   color: rgb(255, 255, 255);
+   color: white;
 
 }
 /* header end */
@@ -99,6 +99,13 @@ nav .menu .menu-button:hover{
     margin-top: 2px;
 }
 
+.divider {
+    width: 80%; /* Çizginin genişliği */
+    height: 1px; /* Çizginin kalınlığı */
+    background-color: #999999; /* Çizginin rengi */
+    margin: 30px auto; /* Çizgiler arası boşluk */
+
+}
 
 /* section end */
 
